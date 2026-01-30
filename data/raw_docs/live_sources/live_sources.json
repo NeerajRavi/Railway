@@ -1,0 +1,471 @@
+[
+  {
+    "id": "india_code_railways_act",
+    "name": "India Code – Railways Act, 1989",
+    "url": "https://www.indiacode.nic.in/handle/123456789/2362",
+    "authority": "Government of India",
+    "rule_type": "law",
+    "priority": 1,
+    "description": "Official and updated text of the Railways Act, 1989 including amendments"
+  },
+  {
+    "id": "railway_board_circulars",
+    "name": "Railway Board Circulars & Orders",
+    "url": "https://indianrailways.gov.in/railwayboard/",
+    "authority": "Railway Board",
+    "rule_type": "circular",
+    "priority": 2,
+    "description": "Latest railway rules, circulars, policy letters and amendments issued by Railway Board"
+  },
+  {
+    "id": "irctc_rules",
+    "name": "IRCTC Rules & Policies",
+    "url": "https://www.irctc.co.in/nget/enquiry/termsAndConditions",
+    "authority": "IRCTC",
+    "rule_type": "passenger_rules",
+    "priority": 3,
+    "description": "Latest passenger-facing rules including booking, cancellation, refund and TDR policies"
+  },
+  {
+    "id": "irctc_refund_rules",
+    "name": "IRCTC Refund & Cancellation Rules",
+    "url": "https://contents.irctc.co.in/en/RefundCancellationRules.pdf",
+    "authority": "IRCTC",
+    "rule_type": "refund",
+    "priority": 3,
+    "description": "Official refund and cancellation rules PDF maintained by IRCTC"
+  },
+  {
+    "id": "railmadad",
+    "name": "RailMadad – Passenger Grievance & Emergency",
+    "url": "https://railmadad.indianrailways.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "grievance_emergency",
+    "priority": 0,
+    "description": "Official grievance redressal and emergency assistance portal (includes helpline 139)"
+  },
+  {
+    "id": "crs_safety",
+    "name": "Commissioner of Railway Safety",
+    "url": "https://crs.gov.in",
+    "authority": "Ministry of Civil Aviation (Rail Safety)",
+    "rule_type": "safety",
+    "priority": 2,
+    "description": "Railway safety rules, accident inquiries and safety manuals"
+  },
+  {
+    "id": "indian_railways_passenger_amenities",
+    "name": "Passenger Amenities – Indian Railways",
+    "url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?id=0,2,287",
+    "authority": "Railway Board",
+    "rule_type": "passenger_amenities",
+    "priority": 4,
+    "description": "Official passenger amenities policies and standards at stations and trains"
+  },
+  {
+    "id": "railway_claims_tribunal",
+    "name": "Railway Claims Tribunal",
+    "url": "https://rct.indianrailways.gov.in",
+    "authority": "Government of India",
+    "rule_type": "claims_compensation",
+    "priority": 2,
+    "description": "Compensation, refund and claims procedures related to railway accidents and losses"
+  },
+  {
+    "id": "indian_railways_main",
+    "name": "Indian Railways Official Website",
+    "url": "https://indianrailways.gov.in",
+    "authority": "Ministry of Railways, Government of India",
+    "rule_type": "official_portal",
+    "priority": 1,
+    "description": "Primary official portal for Indian Railways policies, notices, tenders and updates"
+  },
+  {
+    "id": "indian_rail_enquiry",
+    "name": "Indian Railways Passenger Enquiry",
+    "url": "https://www.indianrail.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "passenger_enquiry",
+    "priority": 0,
+    "description": "Passenger-facing enquiry system for schedules, routes, fares and availability"
+  },
+  {
+    "id": "ntes_live_status",
+    "name": "National Train Enquiry System (NTES)",
+    "url": "https://enquiry.indianrail.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "live_train_status",
+    "priority": 0,
+    "description": "Official live train running status system"
+  },
+  {
+    "id": "irctc_home",
+    "name": "IRCTC Official Portal",
+    "url": "https://www.irctc.co.in",
+    "authority": "IRCTC",
+    "rule_type": "ticketing_platform",
+    "priority": 0,
+    "description": "Official e-ticketing, catering and tourism portal"
+  },
+  {
+    "id": "irctc_helpdesk",
+    "name": "IRCTC Help & Customer Care",
+    "url": "https://www.irctc.co.in/nget/enquiry/contactus",
+    "authority": "IRCTC",
+    "rule_type": "customer_support",
+    "priority": 2,
+    "description": "Customer support, grievance and escalation information"
+  },
+  {
+    "id": "railmadad_portal",
+    "name": "RailMadad Grievance Portal",
+    "url": "https://railmadad.indianrailways.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "grievance_emergency",
+    "priority": 0,
+    "description": "Emergency assistance and grievance redressal platform (139)"
+  },
+  {
+    "id": "railway_board_main",
+    "name": "Railway Board",
+    "url": "https://indianrailways.gov.in/railwayboard/",
+    "authority": "Railway Board",
+    "rule_type": "policy_authority",
+    "priority": 1,
+    "description": "Top policy-making authority issuing circulars, manuals and instructions"
+  },
+  {
+    "id": "railway_board_traffic",
+    "name": "Railway Board – Traffic Directorate",
+    "url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?id=0,1,304",
+    "authority": "Railway Board",
+    "rule_type": "traffic_rules",
+    "priority": 2,
+    "description": "Traffic, operating and commercial circulars"
+  },
+  {
+    "id": "railway_board_safety",
+    "name": "Railway Board – Safety Directorate",
+    "url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?id=0,1,304,366",
+    "authority": "Railway Board",
+    "rule_type": "safety_policy",
+    "priority": 1,
+    "description": "Railway safety policies, manuals and advisories"
+  },
+  {
+    "id": "crs_reports",
+    "name": "Commissioner of Railway Safety Reports",
+    "url": "https://crs.gov.in/Reports.aspx",
+    "authority": "Ministry of Civil Aviation (CRS)",
+    "rule_type": "accident_inquiry",
+    "priority": 1,
+    "description": "Independent accident inquiry and safety inspection reports"
+  },
+  {
+    "id": "prs_system",
+    "name": "Passenger Reservation System (PRS)",
+    "url": "https://prs.indianrail.gov.in",
+    "authority": "CRIS / Indian Railways",
+    "rule_type": "reservation_backend",
+    "priority": 1,
+    "description": "Backend reservation infrastructure of Indian Railways"
+  },
+  {
+    "id": "cris_org",
+    "name": "Centre for Railway Information Systems (CRIS)",
+    "url": "https://cris.org.in",
+    "authority": "Ministry of Railways",
+    "rule_type": "railway_it",
+    "priority": 2,
+    "description": "IT organization managing PRS, NTES, FOIS and operations software"
+  },
+  {
+    "id": "fois_freight",
+    "name": "Freight Operations Information System (FOIS)",
+    "url": "https://www.fois.indianrail.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "freight_tracking",
+    "priority": 1,
+    "description": "Freight booking, tracking and policy portal"
+  },
+  {
+    "id": "dfccil_portal",
+    "name": "Dedicated Freight Corridor Corporation",
+    "url": "https://dfccil.com",
+    "authority": "Ministry of Railways",
+    "rule_type": "freight_infrastructure",
+    "priority": 3,
+    "description": "Dedicated freight corridor operations and rules"
+  },
+  {
+    "id": "station_codes",
+    "name": "Station Codes Directory",
+    "url": "https://www.indianrail.gov.in/enquiry/StaticPages/StaticEnquiry.jsp?StaticPage=station_code.html",
+    "authority": "Indian Railways",
+    "rule_type": "station_reference",
+    "priority": 3,
+    "description": "Official station names and station codes list"
+  },
+  {
+    "id": "concession_rules",
+    "name": "Passenger Concession Rules",
+    "url": "https://www.indianrail.gov.in/enquiry/StaticPages/StaticEnquiry.jsp?StaticPage=conc_Rules.html",
+    "authority": "Indian Railways",
+    "rule_type": "passenger_concessions",
+    "priority": 2,
+    "description": "Eligibility and rules for passenger fare concessions"
+  },
+  {
+    "id": "railway_recruitment",
+    "name": "Railway Recruitment Boards",
+    "url": "https://www.rrbcdg.gov.in",
+    "authority": "Railway Recruitment Board",
+    "rule_type": "recruitment",
+    "priority": 4,
+    "description": "Recruitment notices, exams and results"
+  },
+  {
+    "id": "rpf_portal",
+    "name": "Railway Protection Force",
+    "url": "https://rpf.indianrailways.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "railway_security",
+    "priority": 2,
+    "description": "Railway security, passenger safety and law enforcement"
+  },
+  {
+    "id": "indian_railways_tenders",
+    "name": "Indian Railways E-Procurement",
+    "url": "https://www.ireps.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "tenders_procurement",
+    "priority": 4,
+    "description": "Official procurement and tendering platform"
+  },
+  {
+    "id": "nair_training",
+    "name": "National Academy of Indian Railways",
+    "url": "https://nair.indianrailways.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "training",
+    "priority": 4,
+    "description": "Officer training material and manuals"
+  },
+  {
+    "id": "iricen_track",
+    "name": "IRICEN Track Engineering",
+    "url": "https://www.iricen.gov.in",
+    "authority": "Indian Railways",
+    "rule_type": "track_engineering",
+    "priority": 3,
+    "description": "Track engineering manuals and technical guidance"
+  },
+  {
+    "id": "zonal_railways",
+    "name": "Zonal Railways Websites Directory",
+    "url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?id=0,1,304",
+    "authority": "Indian Railways",
+    "rule_type": "zonal_information",
+    "priority": 4,
+    "description": "Links to all zonal railway websites for zone-specific rules"
+  },
+  {
+    "id": "where_is_my_train",
+    "name": "Where Is My Train",
+    "url": "https://whereismytrain.in",
+    "authority": "Unofficial (Google)",
+    "rule_type": "live_train_tracking",
+    "priority": 5,
+    "description": "Widely used live train tracking app and website using crowd-sourced and offline data"
+  },
+  {
+    "id": "erail",
+    "name": "eRail",
+    "url": "https://erail.in",
+    "authority": "Unofficial",
+    "rule_type": "train_schedule_route",
+    "priority": 5,
+    "description": "Reliable source for train schedules, routes, stations and timetables"
+  },
+  {
+    "id": "indiarailinfo",
+    "name": "India Rail Info",
+    "url": "https://indiarailinfo.com",
+    "authority": "Community-driven",
+    "rule_type": "community_updates",
+    "priority": 5,
+    "description": "Crowdsourced train running updates, delays, spotting and route discussions"
+  },
+  {
+    "id": "railyatri",
+    "name": "RailYatri",
+    "url": "https://www.railyatri.in",
+    "authority": "Private",
+    "rule_type": "pnr_live_status",
+    "priority": 5,
+    "description": "PNR status, live train status and passenger utilities"
+  },
+  {
+    "id": "ixigo_trains",
+    "name": "Ixigo Trains",
+    "url": "https://www.ixigo.com/trains",
+    "authority": "Private",
+    "rule_type": "train_search",
+    "priority": 5,
+    "description": "Train search, live status and delay analytics"
+  },
+  {
+    "id": "confirmtkt",
+    "name": "ConfirmTkt",
+    "url": "https://www.confirmtkt.com",
+    "authority": "Private",
+    "rule_type": "seat_prediction",
+    "priority": 5,
+    "description": "Seat availability prediction and PNR insights"
+  },
+  {
+    "id": "trainman",
+    "name": "Trainman",
+    "url": "https://www.trainman.in",
+    "authority": "Private",
+    "rule_type": "pnr_prediction",
+    "priority": 5,
+    "description": "PNR status prediction and train information"
+  },
+  {
+    "id": "makemytrip_trains",
+    "name": "MakeMyTrip Railways",
+    "url": "https://www.makemytrip.com/railways",
+    "authority": "Private",
+    "rule_type": "ticketing_aggregator",
+    "priority": 5,
+    "description": "Railway ticket booking and enquiry platform"
+  },
+  {
+    "id": "goibibo_trains",
+    "name": "Goibibo Trains",
+    "url": "https://www.goibibo.com/trains",
+    "authority": "Private",
+    "rule_type": "ticketing_aggregator",
+    "priority": 5,
+    "description": "Train search and booking aggregator"
+  },
+  {
+    "id": "paytm_trains",
+    "name": "Paytm Trains",
+    "url": "https://paytm.com/train-tickets",
+    "authority": "Private",
+    "rule_type": "ticketing_aggregator",
+    "priority": 5,
+    "description": "Train ticket booking, PNR and live status tools"
+  },
+  {
+    "id": "redbus_trains",
+    "name": "redBus Railways",
+    "url": "https://www.redbus.in/railways",
+    "authority": "Private",
+    "rule_type": "ticketing_aggregator",
+    "priority": 5,
+    "description": "Rail ticket booking and enquiry features"
+  },
+  {
+    "id": "railradar_railyatri",
+    "name": "RailRadar by RailYatri",
+    "url": "https://railradar.railyatri.in",
+    "authority": "Private",
+    "rule_type": "live_map_tracking",
+    "priority": 5,
+    "description": "Map-based visualization of live train movement"
+  },
+  {
+    "id": "openrailwaymap",
+    "name": "OpenRailwayMap",
+    "url": "https://www.openrailwaymap.org",
+    "authority": "Open-source",
+    "rule_type": "railway_map",
+    "priority": 5,
+    "description": "Detailed open-source railway infrastructure maps"
+  },
+  {
+    "id": "mapsofindia_railways",
+    "name": "Maps of India – Railway Map",
+    "url": "https://www.mapsofindia.com/railway-map",
+    "authority": "Private",
+    "rule_type": "railway_map",
+    "priority": 5,
+    "description": "Visual maps of Indian railway zones and routes"
+  },
+  {
+    "id": "wikipedia_indian_railways",
+    "name": "Wikipedia – Indian Railways",
+    "url": "https://en.wikipedia.org/wiki/Indian_Railways",
+    "authority": "Community",
+    "rule_type": "encyclopedic_reference",
+    "priority": 5,
+    "description": "General background, history and overview of Indian Railways"
+  },
+  {
+    "id": "wikidata_indian_railways",
+    "name": "Wikidata – Indian Railways",
+    "url": "https://www.wikidata.org/wiki/Q1442",
+    "authority": "Open knowledge",
+    "rule_type": "structured_data",
+    "priority": 5,
+    "description": "Structured knowledge graph for Indian Railways entities"
+  },
+  {
+    "id": "ndtv_railways",
+    "name": "NDTV – Indian Railways",
+    "url": "https://www.ndtv.com/topic/indian-railways",
+    "authority": "Media",
+    "rule_type": "railway_news",
+    "priority": 5,
+    "description": "News coverage related to Indian Railways"
+  },
+  {
+    "id": "the_hindu_railways",
+    "name": "The Hindu – Indian Railways",
+    "url": "https://www.thehindu.com/topic/indian_railways/",
+    "authority": "Media",
+    "rule_type": "railway_news",
+    "priority": 5,
+    "description": "Policy, safety and operational news on railways"
+  },
+  {
+    "id": "livemint_railways",
+    "name": "LiveMint – Railways",
+    "url": "https://www.livemint.com/industry/railways",
+    "authority": "Media",
+    "rule_type": "railway_policy_news",
+    "priority": 5,
+    "description": "Economic and policy analysis of Indian Railways"
+  },
+  {
+    "id": "reddit_indianrailways",
+    "name": "Reddit – r/IndianRailways",
+    "url": "https://www.reddit.com/r/IndianRailways",
+    "authority": "Community",
+    "rule_type": "community_discussion",
+    "priority": 5,
+    "description": "Community discussions, photos and experiences"
+  },
+  {
+    "id": "quora_indian_railways",
+    "name": "Quora – Indian Railways",
+    "url": "https://www.quora.com/topic/Indian-Railways",
+    "authority": "Community",
+    "rule_type": "community_qna",
+    "priority": 5,
+    "description": "Community Q&A related to Indian Railways"
+  },
+  {
+    "id": "youtube_indian_railways",
+    "name": "YouTube – Indian Railways Content",
+    "url": "https://www.youtube.com/results?search_query=indian+railways",
+    "authority": "Media / Community",
+    "rule_type": "video_reference",
+    "priority": 5,
+    "description": "Videos on train journeys, reviews, and railway operations"
+  }
+]
+

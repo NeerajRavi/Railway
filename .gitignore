@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# FAISS / embeddings
+faiss_index/
+*.faiss
+*.index
+*.pkl
+
+# Large or generated data
+data/raw/
+data/processed/
+
+# Frontend build artifacts
+node_modules/
+dist/
+build/
+
+# Generated JSON artifacts
+data/chunks/
+data/extracted_text/
+data/raw_docs/circulars
+data/raw_docs/core_docs
+vector_store/
+**/faiss*.json
+**/*chunk*.json
+**/*embedding*.json

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Railway Assistant</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+
+<div class="chat-container">
+    <div class="header">🚆 Railway Assistant</div>
+
+    <div class="chat-box" id="chatBox"></div>
+
+    <div class="input-area">
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Ask something…"
+            autocomplete="off"
+        />
+        <button id="sendBtn">Send</button>
+    </div>
+</div>
+
+<script>
+const chatBox = document.getElementById("chatBox");
+const input = document.getElementById("userInput");
+const sendBtn = document.getElementById("sendBtn");
+
+/* ------------------------------
+   UTIL: Extract citations (RAG only)
+------------------------------ */
+function extractCitations(text) {
+    const urlRegex = /(https?:\/\/[^\s]+)/g;
+    const citations = text.match(urlRegex) || [];
+
+    let cleanText = text;
+    citations.forEach(url => {
+        cleanText = cleanText.replace(url, "").trim();
+    });
+
+    return { cleanText, citations };
+}
+
+/* ------------------------------
+   RENDER MESSAGE
+------------------------------ */
+function addMessage(data, type) {
+    const div = document.createElement("div");
+    div.className = `message ${type}`;
+
+    /* USER MESSAGE */
+    if (type === "user") {
+        div.textContent = data;
+    }
+
+    /* BOT MESSAGE */
+    else if (type === "bot") {
+
+        /* LINKS ONLY RESPONSE */
+        if (data.type === "links_only" && Array.isArray(data.answer)) {
+            data.answer.forEach((link, index) => {
+                const a = document.createElement("a");
+                a.href = link;
+                a.textContent = `${index + 1}. ${link}`;
+                a.target = "_blank";
+                a.className = "bot-link";
+                div.appendChild(a);
+            });
+        }
+
+        /* TEXT / RAG RESPONSE */
+        else {
+            const { cleanText, citations } = extractCitations(data.answer || "");
+
+            const textDiv = document.createElement("div");
+            textDiv.textContent = cleanText;
+            div.appendChild(textDiv);
+
+            if (citations.length > 0) {
+                const citeDiv = document.createElement("div");
+                citeDiv.className = "citations";
+                citeDiv.innerHTML = "<strong>References:</strong>";
+
+                citations.forEach(link => {
+                    const a = document.createElement("a");
+                    a.href = link;
+                    a.textContent = link;
+                    a.target = "_blank";
+                    citeDiv.appendChild(a);
+                });
+
+                div.appendChild(citeDiv);
+            }
+        }
+    }
+
+    /* ERROR MESSAGE */
+    else {
+        div.textContent = data;
+    }
+
+    chatBox.appendChild(div);
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+/* ------------------------------
+   SEND MESSAGE
+------------------------------ */
+async function sendMessage() {
+    const message = input.value.trim();
+    if (!message) return;
+
+    addMessage(message, "user");
+    input.value = "";
+
+    try {
+        const response = await fetch("/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ query: message })
+        });
+
+        if (!response.ok) throw new Error("Server error");
+
+        const data = await response.json();
+        addMessage(data, "bot");
+
+    } catch {
+        addMessage("Backend error. Check server logs.", "error");
+    }
+}
+
+sendBtn.addEventListener("click", sendMessage);
+input.addEventListener("keydown", e => {
+    if (e.key === "Enter") sendMessage();
+});
+</script>
+
+</body>
+</html>

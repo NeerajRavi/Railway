@@ -1,0 +1,283 @@
+{
+  "core_docs/04_Safety_210815.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "safety",
+    "priority": 3,
+    "authority": "Indian Railways",
+    "description": "Safety instructions and procedures issued by Indian Railways",
+    "is_static": true
+  },
+
+  "core_docs/1416206396757-Reservation Rules.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "reservation",
+    "priority": 1,
+    "authority": "Indian Railways",
+    "description": "Core reservation rules governing passenger ticket booking and allocation",
+    "is_static": true
+  },
+
+  "core_docs/AA1987___54railway.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "claims_compensation",
+    "priority": 1,
+    "authority": "Government of India",
+    "description": "Railway Claims Tribunal Act, 1987 governing compensation and claims",
+    "is_static": true
+  },
+
+  "core_docs/Accident Protocol or Manual (Indian Railways).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "safety",
+    "priority": 2,
+    "authority": "Indian Railways",
+    "description": "Official accident handling and investigation procedures",
+    "is_static": true
+  },
+
+  "core_docs/Block Working Manual (Eastern Railway).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 2,
+    "authority": "Indian Railways",
+    "description": "Rules and procedures for block working on Eastern Railway",
+    "is_static": true
+  },
+
+  "core_docs/Dedicated Freight Corridor – General Rules.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 1,
+    "authority": "DFCCIL / Indian Railways",
+    "description": "General rules governing operations on Dedicated Freight Corridors",
+    "is_static": true
+  },
+
+  "core_docs/General Rules (South Central Railway G&SR PDF).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 1,
+    "authority": "Indian Railways",
+    "description": "General and Subsidiary Rules applicable to South Central Railway",
+    "is_static": true
+  },
+
+  "core_docs/Indian Railways – General & Subsidiary Rules (North Western Railway).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 1,
+    "authority": "Indian Railways",
+    "description": "General and Subsidiary Rules applicable to North Western Railway",
+    "is_static": true
+  },
+
+  "core_docs/Indian Railways – General & Subsidiary Rules(Northern Railway, 2025).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 1,
+    "authority": "Indian Railways",
+    "description": "Latest General and Subsidiary Rules for Northern Railway (2025 edition)",
+    "is_static": true
+  },
+
+  "core_docs/Indian Railways – General rules (Southern Railway 1976 GRS).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 1,
+    "authority": "Indian Railways",
+    "description": "Historical General Rules (1976) for Southern Railway",
+    "is_static": true
+  },
+
+  "core_docs/Indian Railways – Reservation Rules (English).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "reservation",
+    "priority": 1,
+    "authority": "Indian Railways",
+    "description": "Authoritative English version of Indian Railways Reservation Rules",
+    "is_static": true
+  },
+
+  "core_docs/operating manual-traffic.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 2,
+    "authority": "Indian Railways",
+    "description": "Operating manual governing train traffic and movement",
+    "is_static": true
+  },
+
+  "core_docs/Railway Servants (Pass) Rules, 1986.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "staff_rules",
+    "priority": 1,
+    "authority": "Government of India",
+    "description": "Rules governing railway staff travel privileges and passes",
+    "is_static": true
+  },
+
+  "core_docs/Railway-Notices-of-and-Inquiries-into-Accidents-Rules-1998.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "safety",
+    "priority": 1,
+    "authority": "Indian Railways",
+    "description": "Statutory rules for railway accident notices and inquiries",
+    "is_static": true
+  },
+
+  "core_docs/Railways_Act_1989.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "law",
+    "priority": 1,
+    "authority": "Government of India",
+    "description": "Primary legislation governing Indian Railways",
+    "is_static": true
+  },
+
+  "core_docs/RulesAndRegulations-2013.pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "passenger_rules",
+    "priority": 2,
+    "authority": "IRCTC / Indian Railways",
+    "description": "IRCTC rules and regulations for online ticketing (base framework)",
+    "is_static": true
+  },
+
+  "core_docs/Station Working Rules – Rupra Road (East Coast Railway).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 2,
+    "authority": "Indian Railways",
+    "description": "Station Working Rules for Rupra Road station",
+    "is_static": true
+  },
+
+  "core_docs/Station Working Rules Chapter from NER (PDF list section).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "operations",
+    "priority": 2,
+    "authority": "Indian Railways",
+    "description": "Station Working Rules chapter reference from North Eastern Railway",
+    "is_static": true
+  },
+
+  "core_docs/The Railways Act, 1989 (Official PDF).pdf": {
+    "doc_category": "core_docs",
+    "rule_type": "law",
+    "priority": 1,
+    "authority": "Government of India",
+    "description": "Official consolidated PDF of the Railways Act, 1989",
+    "is_static": true
+  },
+
+  "circulars/2013/REFUND RULES wef 1-Jul-13.pdf": {
+    "doc_category": "circular",
+    "rule_type": "refund",
+    "priority": 2,
+    "authority": "IRCTC / Railway Board",
+    "description": "Refund rules effective from 1 July 2013",
+    "is_static": false,
+    "effective_year": 2013
+  },
+
+  "circulars/2015/CancellationRulesforIRCTCTrain.pdf": {
+    "doc_category": "circular",
+    "rule_type": "cancellation",
+    "priority": 2,
+    "authority": "IRCTC",
+    "description": "Cancellation rules applicable to IRCTC train tickets",
+    "is_static": false,
+    "effective_year": 2015
+  },
+
+  "circulars/2023/2023_11_23 Final_after_CORRIGENDUM_Signal dte amendment.pdf": {
+    "doc_category": "circular",
+    "rule_type": "signalling_rules",
+    "priority": 2,
+    "authority": "Railway Board (Signal Directorate)",
+    "description": "Corrigendum amending signalling-related operational rules",
+    "is_static": false,
+    "effective_year": 2023
+  },
+
+  "circulars/Concession Rules (General Rules for Concession).pdf": {
+    "doc_category": "circular",
+    "rule_type": "passenger_concessions",
+    "priority": 2,
+    "authority": "Indian Railways",
+    "description": "General rules governing passenger fare concessions",
+    "is_static": false
+  },
+
+  "circulars/IRCTC – Rules & Regulations (For Agents).pdf": {
+    "doc_category": "circular",
+    "rule_type": "agent_rules",
+    "priority": 2,
+    "authority": "IRCTC",
+    "description": "Rules and regulations applicable to IRCTC agents",
+    "is_static": false
+  },
+
+  "circulars/IRCTC Tatkal Booking FAQ.pdf": {
+    "doc_category": "circular",
+    "rule_type": "tatkal",
+    "priority": 3,
+    "authority": "IRCTC",
+    "description": "Frequently asked questions related to Tatkal ticket booking",
+    "is_static": false
+  },
+
+  "circulars/IRCTC User Guide_ Tatkal Ticket Booking (IRCTC).pdf": {
+    "doc_category": "circular",
+    "rule_type": "tatkal",
+    "priority": 3,
+    "authority": "IRCTC",
+    "description": "User guide explaining Tatkal ticket booking process",
+    "is_static": false
+  },
+
+  "circulars/Railway Establishment Rules.pdf": {
+    "doc_category": "circular",
+    "rule_type": "staff_rules",
+    "priority": 2,
+    "authority": "Indian Railways",
+    "description": "Establishment rules governing railway staff service matters",
+    "is_static": false
+  },
+
+  "circulars/Railway Track Machine Manual.pdf": {
+    "doc_category": "circular",
+    "rule_type": "engineering",
+    "priority": 3,
+    "authority": "Indian Railways",
+    "description": "Manual for operation and maintenance of railway track machines",
+    "is_static": false
+  },
+
+  "circulars/Tatkal Scheme (Indian Railways Board PDF).pdf": {
+    "doc_category": "circular",
+    "rule_type": "tatkal",
+    "priority": 2,
+    "authority": "Railway Board",
+    "description": "Official Tatkal scheme issued by Railway Board",
+    "is_static": false
+  },
+
+  "circulars/Ticket Checking Manual (West Central Railway).pdf": {
+    "doc_category": "circular",
+    "rule_type": "ticket_checking",
+    "priority": 2,
+    "authority": "Indian Railways",
+    "description": "Procedures and powers of ticket checking staff",
+    "is_static": false
+  },
+
+  "circulars/Unreserved Ticketing System Chapter (CAG PDF).pdf": {
+    "doc_category": "circular",
+    "rule_type": "unreserved_ticketing",
+    "priority": 3,
+    "authority": "Comptroller and Auditor General of India",
+    "description": "Audit chapter on Unreserved Ticketing System",
+    "is_static": false
+  }
+}
