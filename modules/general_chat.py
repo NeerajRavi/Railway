@@ -3,6 +3,8 @@ import os
 from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+if not client:
+    raise RuntimeError("OPENAI_API_KEY is not set")
 MODEL_NAME = "gpt-4.1-mini"
 GENERAL_SYSTEM_PROMPT = (
     "You are a knowledgeable, helpful AI assistant.\n"

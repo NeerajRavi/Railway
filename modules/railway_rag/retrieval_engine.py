@@ -97,25 +97,3 @@ def retrieve_rules(query: str):
         })
     candidates.sort(key=lambda x: x["final_score"], reverse=True)
     return candidates[:TOP_K_FINAL]
-
-# CLI TEST
-# -------------------------------------------------
-# if __name__ == "__main__":                                                        
-#     query = "What are the safety rules regarding train running and timing?"
-#     output = retrieve_rules(query)
-#     results=output
-#     if not results:
-#         print("❌ No authoritative railway rule found.")
-#     else:
-#         print(f"\nQUERY: {query}")
-#         print("=" * 70)
-#         for i, r in enumerate(results, start=1):
-#             print(f"\nRank {i}")
-#             print(f"Final Score : {r['final_score']}")
-#             print(f"Similarity  : {r['similarity']}")
-#             print(f"Rule Type   : {r['rule_type']}")
-#             print(f"Priority    : {r['priority']}")
-#             print(f"Authority   : {r['authority']}")
-#             print(f"Source      : {r['document_path']} (Page {r['page_number']})")
-#             print("-" * 70)
-#             print(r["text"][:600])    

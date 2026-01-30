@@ -12,6 +12,8 @@ with open("data/static_lookup/stations_lookup.json", "r", encoding="utf-8") as f
 with open("data/static_lookup/trains_lookup.json", "r", encoding="utf-8") as f:
     TRAIN_LOOKUP = json.load(f)
 RAPIDAPI_KEY = os.getenv("RAPIDAPI_KEY")
+if not RAPIDAPI_KEY:
+    raise RuntimeError("RAPIDAPI_KEY is not set")
 RAPIDAPI_HOST = "irctc1.p.rapidapi.com"
 BASE_URL = "https://irctc1.p.rapidapi.com"
 HEADERS = {
