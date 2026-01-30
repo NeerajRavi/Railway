@@ -1,0 +1,20 @@
+# UI
+gradio
+
+# API backend (kept for completeness)
+fastapi
+pydantic
+
+# LLM & RAG
+openai
+faiss-cpu
+sentence-transformers
+
+# Data & utilities
+requests
+python-dotenv
+
+# Document processing (PDFs)
+pypdf
+PyMuPDF
+Pillow
